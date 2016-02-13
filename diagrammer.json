@@ -1,0 +1,271 @@
+{ "diagram" :
+[
+   {
+      "GD1" 		: true,
+      "id"			: "1.1",
+      "titel"		: "Matrikulær forandring af Samlet Fast Ejendom",
+      "version"	: "1.9",
+      "graph"		: "TU1.1-v1.9",
+      "teknik"  : [
+                    {
+                      "titel" : "Forandring af samlet fast ejendom - udstykning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/b4ed12bc-7a38-473d-95f2-4eed284383a2.htm"
+                    },
+                    {
+                      "titel" : "Ejerskaber ved udstykning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/0cca9bb1-961b-4891-bcaf-969ac126a6ea.htm"
+                    },
+                    {
+                      "titel" : "Ejerskaber ved sammenlægning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/49c52c8b-3f66-49da-957a-e9e307db4c4.htm"
+                    },
+                    {
+                      "titel" : "Matrikulær sag opgives af landinspektør før anmeldelse til tinglysning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/6c4b7512-11f9-4392-a3ef-fb61bfcf6491.htm"
+                    },
+                    {
+                      "titel" : "Sammenlægning af jordejendomme med to BFE",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/9080c7e6-3da9-4bb8-8f23-06b2e387e2a0.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.2",
+      "titel"		: "Ejerlejlighedsopdeling og forandring",
+      "version"	: "1.10",
+      "graph"		: "TU1.2-v1.10",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdeling i ejerlejligheder - eksisterende bygning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/Icon/70b4dfe5-ddb5-4c71-8382-b19a9adbbdac.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.3",
+      "titel"		: "Opdeling i ejerlejligheder (bygning endnu ikke opført)",
+      "version"		: "1.5",
+      "graph"		: "TU1.3-v1.5",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdeling i ejerlejligheder - ikke eksisterende bygning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/e4db3e2a-2e69-48c1-bd9f-839b8753482b.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.4",
+      "titel"		: "Oprettelse af BPFG via kommunen",
+      "version"		: "1.5",
+      "graph"		: "TU1.4-v1.5",
+      "teknik"  : [
+                    {
+                      "titel" : "Ny BPFG oprettes af BBR registerføren",
+                      "ref"   : "http://grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/3f36b3f0-e459-48af-84c0-780cc9767cb7.htm"
+                    },
+                    {
+                      "titel" : "BBR opretter BPFG i MU",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/8d48e983-a1e1-4e54-9574-d6fb73454da1.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.5",
+      "titel"		: "Sammenlægning af to BFE (jordejendomme)",
+      "version"	: "1.3",
+      "graph"		: "TU1.5-v1.3",
+      "teknik"  : [
+                    {
+                      "titel" : "Sammenlægning af jordejendomme med to BFE",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/9080c7e6-3da9-4bb8-8f23-06b2e387e2a0.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.6",
+      "titel"		: "Sammenlægning af to enheder til en enhed i BBR",
+      "version"	: "1.4",
+      "graph"		: "TU1.6-v1.4",
+      "teknik"  : [
+                    {
+                      "titel" : "Sammenlægning af to ejerlejligheder og BBR enheder ",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/fcd4690b-d92c-45d8-93eb-3e354e448ebf.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.7",
+      "titel"		: "Ejerskifte og ejerskab",
+      "version"	: "1.4",
+      "graph"		: "TU1.7-v1.4",
+      "teknik"  : [
+                    {
+                      "titel" : "Ejerskaber ved udstykning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/0cca9bb1-961b-4891-bcaf-969ac126a6ea.htm"
+                    },
+                    {
+                      "titel" : "Ejerskaber ved sammenlægning",
+                      "ref"   : "http://grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/49c52c8b-3f66-49da-957a-e9e307db4c43.htm"
+                    }
+                  ]
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.8",
+      "titel"		: "Ejerskifte (via Kommunen)",
+      "version"	: "1.1",
+      "graph"		: "TU1.8-v1.1"
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.9",
+      "titel"		: "Opret/opdater administrator",
+      "version"		: "1.1",
+      "graph"		: "TU1.9-v1.1"
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.10",
+      "titel"		: "Opret/opdater ejer",
+      "version"		: "1.1",
+      "graph"		: "TU1.10-v1.1"
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.11",
+      "titel"		: "Ændring af personforhold",
+      "version"		: "1.1",
+      "graph"		: "TU1.11-v1.1"
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.12",
+      "titel"		: "Ændring af virksomhedsform",
+      "version"		: "1.2",
+      "graph"		: "TU1.12-v1.2"
+   },
+   {
+      "GD1" 		: true,
+      "id"			: "1.13",
+      "titel"		: "Opdatering af ejendomsbeliggenhed",
+      "version"		: "1.6",
+      "graph"		: "TU1.13-v1.6"
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.1",
+      "titel"		: "Opdater supplerende bynavn",
+      "version"	: "1.1",
+      "graph"		: "GD2_UML-Seq01-v1.1",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af supplerendeBynavnInfo",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/02b49883-9cde-420b-8504-25e048a6c806.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 	 	: true,
+      "id"			: "2.2",
+      "titel"		: "Opdater Administrativ inddeling",
+      "version"		: "1.4",
+      "graph"		: "GD2_UML-Seq02-v1.4",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af administrative inddelinger",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/bbd53fec-e922-4630-9383-3f0828fa5b3c.htm"
+                    },
+                    {
+                      "titel" : "Flytning af grænsen for to administrative inddelinger",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/eb058aa3-9a54-4549-8532-af31e347ebd7.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 	  	: true,
+      "id"			: "2.3",
+      "titel"		: "Opdater Gadepostnummer og Postnummertilhør",
+      "version"		: "1.4",
+      "graph"		: "GD2_UML-Seq03-v1.4",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af gadepostnummer og tilhørende adresser",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/d7781a15-325a-4c4d-82ae-afbc7c40b490.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.4",
+      "titel"		: "Opdater jordstykke (eller foreløbig lodflade)",
+      "version"		: "1.2",
+      "graph"		: "GD2_UML-Seq04-v1.2",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af tilknyttet Jordstykke",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/32418482-d9b7-4336-a33d-5dea1a2b4ff5.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 	  	: true,
+      "id"			: "2.5",
+      "titel"		: "Opdater BBR-Bygning (eller Teknisk Anlæg)",
+      "version"		: "1.4",
+      "graph"		: "GD2_UML-Seq05-v1.4",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering BBR bygning",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/7647a580-754e-4bd4-9c34-40868ef917a0.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.6",
+      "titel"		: "Opdater GeoDanmark Vejmidte",
+      "version"		: "1.2",
+      "graph"		: "GD2_UML-Seq06-v1.2",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af Geodanmark vejmidte",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/e6584ee6-b4c0-4c96-be28-035c25f4e6b7.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.7",
+      "titel"		: "Opdater GeoDanmark Bygning",
+      "version"		: "1.3",
+      "graph"		: "GD2_UML-Seq07-v1.3",
+      "teknik"  : [
+                    {
+                      "titel" : "Opdatering af Geodanmark bygning eller teknisk anlæg",
+                      "ref"   : "//grunddataprogrammet.dk/GD1GD2sekvensdiagrammer/SequenceDiagram/2f0dd501-2909-4d9d-85ae-3048dddbd6f7.htm"
+                    }
+                  ]
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.8",
+      "titel"		: "Opdater Navngiven Vej",
+      "version"		: "1.1",
+      "graph"		: "GD2_UML-Seq08-v1.1"
+   },
+   {
+      "GD2" 		: true,
+      "id"			: "2.9",
+      "titel"		: "Opdater Adresse",
+      "version"		: "1.1",
+      "graph"		: "GD2_UML-Seq09-v1.1"
+   }
+]
+
+}
