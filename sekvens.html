@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sekvensdiagrammer</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <div class="container">
+	<img src="Logo GD1.png" alt="GD1" width="5%">GD1 - Ejendomsdataprogrammet
+	<img src="Logo GD2.png" alt="GD1" width="5%">GD2 - Adresseprogrammet
+    <div class="h1">Sekvensdiagrammer</div>
+    <div class="h5">Diagrammer for tværgående processer i GD1 og GD2</div>
+  </div>
+</div>
+	<div class="container">
+
+	<div class="row">
+		<div class="col-md-12">
+		<div class="list-group">
+			<a href="#" class="list-group-item">
+				<p class="text-primary">
+					Formater
+					<span class="glyphicon glyphicon-file"></span>
+					<span class="badge">png</span>
+					<span class="glyphicon glyphicon-book"></span>
+					<span class="badge">pdf</span>
+				</p>
+			</a>
+		</div>
+		</div>
+	</div>
+	
+	<div class="container">
+	<script type="text/template" id="template">
+		<div class="row">
+    	<div class="col-md-6">
+		<div class="list-group">
+		{{#diagram}}
+		{{#gd1}}
+      	<div class="list-group-item">
+				<a href="diagrammer/{{graph}}.png" ><span class="glyphicon glyphicon-file"></a>
+				<a href="diagrammer/{{graph}}.pdf" ><span class="glyphicon glyphicon-book"></a>
+				</span>{{id}} {{titel}}<span class="badge">v{{version}}</span>
+			</div>
+      {{/gd1}}
+		{{/diagram}}
+		</div>
+		</div>
+
+    	<div class="col-md-6">
+		<div class="list-group">
+		{{#diagram}}
+		{{#gd2}}
+      	<div class="list-group-item">
+				<a href="diagrammer/{{graph}}.png" ><span class="glyphicon glyphicon-file"></a>
+				<a href="diagrammer/{{graph}}.pdf" ><span class="glyphicon glyphicon-book"></a>
+				</span>{{id}} {{titel}}<span class="badge">v{{version}}</span>
+			</div>
+      {{/gd2}}
+		{{/diagram}}
+		</div>
+		</div>
+		</div>
+
+	</script>
+	</div>
+<div id="content"></div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+  		
+	
+		var template 	= $("#template").html();
+
+		var view 		= { diagram: [ {
+													gd1 		: true,
+													id			: "1.1",
+													titel		: "Matrikulær forandring af Samlet Fast Ejendom",
+													version	: "1.9",
+													graph		: "TU1.1-v1.9"
+												},
+												{
+													gd2 		: true,
+													id			: "1.1",
+													titel		: "Matrikulær forandring af Samlet Fast Ejendom",
+													version	: "1.9",
+													graph		: "TU1.1-v1.9"
+												}												
+												]
+								};
+
+  		//$.getJSON('../js/article.json', function(view) {
+    				var article = Mustache.to_html(template, view);
+    				$("#content").append(article);
+  		//-	});
+  		
+	});
+	</script>
+</body>
+</html>
